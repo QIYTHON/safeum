@@ -35,7 +35,7 @@ def work():
   gzip = decompress(con.recv()).decode('utf-8')
   if '"status":"Success"' in gzip:
    success+= 1
-   accounts.append(username+':hhhh')
+   accounts.append(username)
    with open('SafeUM-𝑎𝑚𝑔𝑒𝑑 .txt', 'a') as f: f.write(username + ":hhhh | TG : @ho888\n")
   else:
    failed+=1
